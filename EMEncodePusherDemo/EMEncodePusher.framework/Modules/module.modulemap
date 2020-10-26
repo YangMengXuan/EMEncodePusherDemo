@@ -1,0 +1,6 @@
+framework module EMEncodePusher {
+  umbrella header "EMEncodePusher.h"
+
+  export *
+  module * { export * }
+}
