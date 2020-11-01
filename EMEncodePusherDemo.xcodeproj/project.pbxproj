@@ -23,8 +23,8 @@
 		7742D8292545B89A007C31B1 /* librtmp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7742D80E2545B89A007C31B1 /* librtmp.a */; };
 		7742D82A2545B89A007C31B1 /* libyuv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7742D8262545B89A007C31B1 /* libyuv.a */; };
 		7742D83325462D08007C31B1 /* CustomVideoEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7742D83225462D08007C31B1 /* CustomVideoEncoder.m */; };
-		77548FAC2547096B00F130AF /* EMEncodePusher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77548FAB2547096B00F130AF /* EMEncodePusher.framework */; };
-		77548FAD2547097600F130AF /* EMEncodePusher.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 77548FAB2547096B00F130AF /* EMEncodePusher.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		77548FAF254ED24300F130AF /* EMEncodePusher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77548FAE254ED24300F130AF /* EMEncodePusher.framework */; };
+		77548FB0254ED25C00F130AF /* EMEncodePusher.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 77548FAE254ED24300F130AF /* EMEncodePusher.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,7 +34,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				77548FAD2547097600F130AF /* EMEncodePusher.framework in CopyFiles */,
+				77548FB0254ED25C00F130AF /* EMEncodePusher.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,7 +89,7 @@
 		7742D8262545B89A007C31B1 /* libyuv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libyuv.a; sourceTree = "<group>"; };
 		7742D83125462D08007C31B1 /* CustomVideoEncoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomVideoEncoder.h; sourceTree = "<group>"; };
 		7742D83225462D08007C31B1 /* CustomVideoEncoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomVideoEncoder.m; sourceTree = "<group>"; };
-		77548FAB2547096B00F130AF /* EMEncodePusher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EMEncodePusher.framework; sourceTree = "<group>"; };
+		77548FAE254ED24300F130AF /* EMEncodePusher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EMEncodePusher.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +106,7 @@
 				7742D7EE2545B848007C31B1 /* libiconv.tbd in Frameworks */,
 				7742D7EC2545B77A007C31B1 /* VideoToolbox.framework in Frameworks */,
 				7742D7EA2545B774007C31B1 /* AudioToolbox.framework in Frameworks */,
-				77548FAC2547096B00F130AF /* EMEncodePusher.framework in Frameworks */,
+				77548FAF254ED24300F130AF /* EMEncodePusher.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,7 +133,7 @@
 		7742D7CE2545B5AE007C31B1 /* EMEncodePusherDemo */ = {
 			isa = PBXGroup;
 			children = (
-				77548FAB2547096B00F130AF /* EMEncodePusher.framework */,
+				77548FAE254ED24300F130AF /* EMEncodePusher.framework */,
 				7742D7F32545B89A007C31B1 /* clibs */,
 				7742D7CF2545B5AE007C31B1 /* AppDelegate.h */,
 				7742D7D02545B5AE007C31B1 /* AppDelegate.m */,

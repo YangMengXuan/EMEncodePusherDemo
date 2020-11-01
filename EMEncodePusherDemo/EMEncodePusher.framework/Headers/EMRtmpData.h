@@ -45,7 +45,7 @@ extern void resetRtmpBaseData(void **baseData);
 //composition_time: 一般为0
 //is_key_frame：是否是关键帧
 //return：返回Rtmp传输时的videoBodyTag数据
-extern void *createRtmpVideoBodyTag(int8_t *h264_data, long len, uint32_t timeStamp, long composition_time, int8_t is_key_frame);
+void *createRtmpVideoBodyTag(int8_t *h264_data, long len, uint32_t timeStamp, long composition_time, int8_t is_key_frame,int codecType);
 
 //创建一个在RTMP协议可传输的videoBodyTag数据，
 //baseData：Rtmp基本数据类型
@@ -53,12 +53,12 @@ extern void *createRtmpVideoBodyTag(int8_t *h264_data, long len, uint32_t timeSt
 //composition_time: 一般为0
 //is_key_frame：是否是关键帧
 //return：返回Rtmp传输时的videoBodyTag数据
-extern void *createRtmpVideoBodyTag2(void * baseData,uint32_t timeStamp, long composition_time, int8_t is_key_frame);
+void *createRtmpVideoBodyTag2(void * baseData,uint32_t timeStamp, long composition_time, int8_t is_key_frame,int codecType);
 
 //创建一个在RTMP协议可传输的videoHeadTag数据，
 //baseData:Rtmp基本数据类型
 //return：返回Rtmp传输时的videoHeadTag数据
-extern void *createRtmpVideoHeadTag(void *baseData);
+void *createRtmpVideoHeadTag(void *baseData , int codecType);
 
 //创建一个在RTMP中videoheadTag数据需要的baseData数据
 //sps_bytes：sps的地址
